@@ -1,0 +1,78 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 16, 2022, 9:12:35 PM
+    Author     : laptop
+*/
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../imgs/loginWallpaper.jpg);
+}
+
+.register{
+    position: absolute;
+    top: 15%;
+    left: 27%;
+    width: 44%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    align-items: center;
+}
+
+span{
+    font-weight: 640;
+}
+
+.register-title{
+    position: relative;
+    font-weight: bold;
+    display: flex;
+    margin-left: 40%;
+}
+
+.form-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    outline: none;
+    background-color: purple;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+    color: #fff;
+}
+
+.input-box{
+    width: calc(40%);
+    padding-left: 40px;
+    background-origin: content-box;
+}
+
+.input-box div{
+    margin: 20px 0 10px 0;
+}
+
+.input-box div input{
+    height: 36px;
+    width: 100%;
+    outline: none;
+    border-radius: 7px;
+    border: 2px solid #ccc;
+    padding-left: 10px;
+}
+

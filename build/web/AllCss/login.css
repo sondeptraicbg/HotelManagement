@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 11, 2022, 9:30:01 PM
+    Author     : laptop
+*/
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../imgs/loginWallpaper.jpg);
+}
+
+#login{
+    position: absolute;
+    top: 15%;
+    left: 36%;
+    width: 28%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.login-title{
+    position: relative;
+    font-weight: bold;
+    display: flex;
+    margin-left: 36%;
+}
+
+.login-form{
+    position: relative;
+    margin-left: 50px;
+}
+
+.login-form h4 a{
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.information{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 15px 0;
+    width: 80%;
+}
+
+.information input{
+    border: none;
+    background: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    padding: 0 5px;
+    width: 100%;
+}
+
+a{
+    color: black;
+}
+
+.login-button{
+    margin-top: 40px;
+    width: 80%;
+    height: 50px;
+    outline: none;
+    background-color: purple;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+    color: #fff;
+}
+
+.remember:hover{
+    color: red;
+}

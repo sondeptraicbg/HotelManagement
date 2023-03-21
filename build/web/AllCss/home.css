@@ -1,0 +1,387 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 11, 2022, 11:35:03 AM
+    Author     : laptop
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#header{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    background-position: center;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+
+.icon{
+    width: 100px;
+    height: 80px;
+    background-size: cover;
+    padding-left: 25px;
+}
+
+.hotel-icon{
+    font-size: 400%;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+}
+
+#intro-imgs{
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    overflow: hidden;
+    background-image: url(../imgs/hotel1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 12s infinite ease-in-out;
+}
+
+.intro-imgs-content{
+    color: #fff;
+    font-size: 90px;
+}
+
+@keyframes change{
+    0%{
+        background-image: url(../imgs/hotel1.jpg);
+    }
+    20%{
+        background-image: url(../imgs/hotel2.jpg);
+    }
+    40%{
+        background-image: url(../imgs/hotel3.jpg);
+    }
+    60%{
+        background-image: url(../imgs/hotel4.jpg);
+    }
+    80%{
+        background-image: url(../imgs/hotel5.jpg);
+    }
+    100%{
+        background-image: url(../imgs/hotel1.jpg);
+    }
+}
+
+.memu-list{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 22px;
+    display: flex;
+}
+
+.memu-list-item a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.memu-list-item a:hover{
+    color: orange;
+}
+
+.where-are-you{
+    min-width: 50px;
+    margin-left: 300px;
+    border: 2px solid orange;
+    border-radius: 3px;
+    padding: 10px 2px 0px 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rooms{
+    display: flex;
+    width: 100%;
+    /*float: right;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+#rooms2{
+    display: flex;
+    width: 100%;
+    /*float: right;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.room-item{
+    margin: 0 30px 5px 30px;
+    width: 20%;
+    border: 2px solid #ccc;
+    position: relative;
+    min-height: 390px;
+}
+
+.room-item-img{
+    max-width: 100%;
+}
+
+.descripe-little{
+    margin-left: 20px;
+}
+
+.descripe-little-item{
+    margin-top: 5px;
+}
+
+.descripe-little-item i{
+    min-width: 25px;
+}
+
+.room-item-book{
+    width: 100%;
+    background-color: #498BEC;
+    text-decoration: none;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 0px;
+}
+
+/*.room-item-book a{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}*/
+
+footer{
+    width: 100%;
+    height: 400px;
+    bottom: 0px;
+    /*clear: both;*/
+    /*background-color: rgba(30, 30, 30, 0.5);*/
+    background-image: url(../imgs/footerWallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.contact-us{
+    color: #fff;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.to-contact{
+    background-color: orange;
+    height: 44%;
+    padding: 50px;
+    padding-top: 31px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background-clip: border-box;
+}
+
+.to-contact-info{
+    color: #fff;
+    flex: 1;
+}
+
+.to-contact-message{
+    margin-left: 100px;
+    flex: 2;
+}
+
+.footer-input{
+    min-width: 80%;
+    min-height: 30px;
+    margin-bottom: 5px;
+}
+
+.footer-input-mes{
+    min-height: 80px;
+}
+
+/*========================================================*/
+
+/*==============================SERVICE=====================================*/
+
+.list-service{
+    display: flex;
+    width: 100%;
+    /*float: right;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.service-item{
+    margin: 0 30px 5px 30px;
+    width: 42%;
+    border: 2px solid #ccc;
+    position: relative;
+    min-height: 180px;
+    display: flex;
+}
+
+.service-img{
+    max-width: 100%;
+}
+
+.service-item-img{
+    flex: 1;
+    padding: 5px;
+}
+
+.service-descripe-little{
+    flex: 1;
+}
+
+.service-descripe-little-item-name{
+    font-weight: bold;
+    padding: 5px;
+}
+
+.service-descripe-little-item-desc{
+    padding: 5px;
+}
+
+/*======Tab===========================================================*/
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-top: 32px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/*Hotel==============================================*/
+
+.hotel-item-img{
+    width: 100%;
+}
+
+.hotel-img{
+    max-width: 100%;
+}
+
+.hotel-infor{
+    display: flex;
+    background-color: orange;
+    color: #fff;
+}
+
+.list-hotel{
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.hotel-item{
+    border: 1px solid blueviolet;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.hotel-descripe{
+    flex: 1;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+/*Cart========================================================*/
+
+.cart-item{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.cart-item:hover{
+    color: blue;
+}
+
+/*Choose price and date ==============================================================*/
+
+.choose-date-and-price{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choose-price{
+    flex: 1;
+    width: 45%;
+    margin: 15px;
+    border: 2px solid #498BEC;
+    border-radius: 3px;
+    padding: 10px 2px 10px 2px;
+}
+
+.choose-price-item{
+    display: block;
+    flex: 1;
+}
+
+.choose-price-item1{
+    flex: 1;
+    display: flex
+}
+
+.choose-date{
+    flex: 1;
+    width: 45%;
+    margin: 15px;
+    border: 2px solid #498BEC;
+    border-radius: 3px;
+    padding: 10px 2px 10px 2px;
+}
+

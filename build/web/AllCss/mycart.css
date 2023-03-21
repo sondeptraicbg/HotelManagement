@@ -1,0 +1,94 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 30, 2022, 3:05:37 PM
+    Author     : laptop
+*/
+
+body{
+    font-family: sans-serif;
+}
+
+.title-cart{
+    text-align: center;
+}
+
+.no-room{
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#empty-cart{
+    background-size: cover;
+}
+
+.no-room-title{
+}
+
+.empty-cart-img{
+    max-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.continue-booking{
+    background-color: #1F274D;
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/*There is room is pending*/
+
+.table-room{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.room-item-img{
+    height: 100px;
+    width: 150px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+td{
+    text-align: center;
+}
+
+.choose-date{
+    flex: 1;
+    width: 80%;
+    margin-top: 15px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 2px solid #498BEC;
+    border-radius: 3px;
+    padding: 10px 2px 10px 2px;
+    flex-direction: column;
+    text-align: start;
+}
+
+.checkout-item{
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
